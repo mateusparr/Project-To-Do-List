@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width = device-width, initial-scale = 1.0" />
+        <link href="style.css" rel="stylesheet" />
+    </head>
+    
+    <body>
+        <header>
+            <div class="container">
+                <h1>Minha Lista de Tarefas</h1>
+            </div><!--container-->
+        </header>
+
+        <nav>
+            <div class="container">
+                <p id="funcionamento">Clique duas vezes em um 
+                item para marcá-lo como completo</p>
+                <input type="text" placeholder="Insira aqui a sua tarefa" id="texto-tarefa" />
+                <button type="submit" id="criar-tarefa" class="criar-tarefa">Adicionar tarefa a sua lista</button>
+                <button type="reset" id="apaga-tudo">Apagar lista de tarefas</button>
+                <button type="button" id="remover-finalizados">Apaga tarefas finalizadas</button>
+            </div>
+        </nav>
+
+        <section>
+            <div class="container">
+                <ol id="lista-tarefas"></ol>
+            </div>
+        </section>
+
+        <script src="script.js"></script>
+    </body>
+</html>
